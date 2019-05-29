@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:grey;
+  }
+  
+  .activelink{
+    background-color: gray;
+  }
+  .inactivelink{
+    background-color: black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  .tabDisplay { 
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  .textContent{
+  line-height: 25px;
+  font-size: 20px;
+  }
+  
+  .banner {
+    object-fit: cover;
+    width:100vw;
+    height:20vw;
+
+  }
+  .OuterBorder{
+    border:2px solid black;
+    height:70vh;
+
+  }
+
+  nav {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background: #212121;
+    color: #ccc;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: #848484;
+    color: #212121;
+  }
+  
+  .fixed-nav {
+    position: fixed;
+  }
+  
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  
+  .content > div {
+    margin: 10px 0;
+  }
+  
+  
